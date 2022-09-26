@@ -1,0 +1,63 @@
+@media only screen and (max-width: 550px){
+    .heading{
+        font-size: 36px;
+    }
+    .advantages{
+        height: 90vh;
+    }
+    .advantage{
+        width: 80vw;
+        margin-left: 20px;
+    }
+    .features.flex{
+        flex-direction: column;
+        width: 90vw;
+    }
+    .feature-item-img{
+        width: 16vw;
+    }
+    .feature-item-img>img{
+        width: 56px;
+    }
+    .feature{
+        width: 70vw;
+    }
+}
+
+@media only screen and (max-width: 281px){
+    .feature{
+        width: 80vw;
+        height: 45vh;
+        margin:40px 20px;
+    }
+    .features{
+        padding: 4vh 0px;
+    }
+    .advantages{
+        margin-bottom: 20px;
+    }
+    .advantage{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .section-heading{
+        font-size: 28px;
+    }
+    .feature-heading{
+        width: 80vw;
+        margin-top: 10px;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .image-section{
+        width: 80vw;
+    }
+    
+    .hero-image{
+        width: 80vw;
+    }
+    .saas{
+        width: 80vw;
+    }
+}
